@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36806CE41C66897500BC898D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36806CE31C66897500BC898D /* AppDelegate.swift */; };
+		36806CE61C66897500BC898D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36806CE51C66897500BC898D /* ViewController.swift */; };
+		36806CE91C66897500BC898D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36806CE71C66897500BC898D /* Main.storyboard */; };
+		36806CEB1C66897500BC898D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36806CEA1C66897500BC898D /* Assets.xcassets */; };
+		36806CEE1C66897500BC898D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36806CEC1C66897500BC898D /* LaunchScreen.storyboard */; };
+		36806CF91C66897500BC898D /* GoogleRSSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36806CF81C66897500BC898D /* GoogleRSSTests.swift */; };
+		36806D041C66897500BC898D /* GoogleRSSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36806D031C66897500BC898D /* GoogleRSSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36806CF51C66897500BC898D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36806CD81C66897500BC898D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36806CDF1C66897500BC898D;
+			remoteInfo = GoogleRSS;
+		};
+		36806D001C66897500BC898D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36806CD81C66897500BC898D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36806CDF1C66897500BC898D;
+			remoteInfo = GoogleRSS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36806CE01C66897500BC898D /* GoogleRSS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleRSS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36806CE31C66897500BC898D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36806CE51C66897500BC898D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		36806CE81C66897500BC898D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36806CEA1C66897500BC898D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36806CED1C66897500BC898D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36806CEF1C66897500BC898D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36806CF41C66897500BC898D /* GoogleRSSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleRSSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36806CF81C66897500BC898D /* GoogleRSSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleRSSTests.swift; sourceTree = "<group>"; };
+		36806CFA1C66897500BC898D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36806CFF1C66897500BC898D /* GoogleRSSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleRSSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36806D031C66897500BC898D /* GoogleRSSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleRSSUITests.swift; sourceTree = "<group>"; };
+		36806D051C66897500BC898D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36806CDD1C66897500BC898D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36806CF11C66897500BC898D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36806CFC1C66897500BC898D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36806CD71C66897500BC898D = {
+			isa = PBXGroup;
+			children = (
+				36806CE21C66897500BC898D /* GoogleRSS */,
+				36806CF71C66897500BC898D /* GoogleRSSTests */,
+				36806D021C66897500BC898D /* GoogleRSSUITests */,
+				36806CE11C66897500BC898D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36806CE11C66897500BC898D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36806CE01C66897500BC898D /* GoogleRSS.app */,
+				36806CF41C66897500BC898D /* GoogleRSSTests.xctest */,
+				36806CFF1C66897500BC898D /* GoogleRSSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36806CE21C66897500BC898D /* GoogleRSS */ = {
+			isa = PBXGroup;
+			children = (
+				36806CE31C66897500BC898D /* AppDelegate.swift */,
+				36806CE51C66897500BC898D /* ViewController.swift */,
+				36806CE71C66897500BC898D /* Main.storyboard */,
+				36806CEA1C66897500BC898D /* Assets.xcassets */,
+				36806CEC1C66897500BC898D /* LaunchScreen.storyboard */,
+				36806CEF1C66897500BC898D /* Info.plist */,
+			);
+			path = GoogleRSS;
+			sourceTree = "<group>";
+		};
+		36806CF71C66897500BC898D /* GoogleRSSTests */ = {
+			isa = PBXGroup;
+			children = (
+				36806CF81C66897500BC898D /* GoogleRSSTests.swift */,
+				36806CFA1C66897500BC898D /* Info.plist */,
+			);
+			path = GoogleRSSTests;
+			sourceTree = "<group>";
+		};
+		36806D021C66897500BC898D /* GoogleRSSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36806D031C66897500BC898D /* GoogleRSSUITests.swift */,
+				36806D051C66897500BC898D /* Info.plist */,
+			);
+			path = GoogleRSSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36806CDF1C66897500BC898D /* GoogleRSS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36806D081C66897500BC898D /* Build configuration list for PBXNativeTarget "GoogleRSS" */;
+			buildPhases = (
+				36806CDC1C66897500BC898D /* Sources */,
+				36806CDD1C66897500BC898D /* Frameworks */,
+				36806CDE1C66897500BC898D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleRSS;
+			productName = GoogleRSS;
+			productReference = 36806CE01C66897500BC898D /* GoogleRSS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36806CF31C66897500BC898D /* GoogleRSSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36806D0B1C66897500BC898D /* Build configuration list for PBXNativeTarget "GoogleRSSTests" */;
+			buildPhases = (
+				36806CF01C66897500BC898D /* Sources */,
+				36806CF11C66897500BC898D /* Frameworks */,
+				36806CF21C66897500BC898D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36806CF61C66897500BC898D /* PBXTargetDependency */,
+			);
+			name = GoogleRSSTests;
+			productName = GoogleRSSTests;
+			productReference = 36806CF41C66897500BC898D /* GoogleRSSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36806CFE1C66897500BC898D /* GoogleRSSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36806D0E1C66897500BC898D /* Build configuration list for PBXNativeTarget "GoogleRSSUITests" */;
+			buildPhases = (
+				36806CFB1C66897500BC898D /* Sources */,
+				36806CFC1C66897500BC898D /* Frameworks */,
+				36806CFD1C66897500BC898D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36806D011C66897500BC898D /* PBXTargetDependency */,
+			);
+			name = GoogleRSSUITests;
+			productName = GoogleRSSUITests;
+			productReference = 36806CFF1C66897500BC898D /* GoogleRSSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36806CD81C66897500BC898D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jamal Jones";
+				TargetAttributes = {
+					36806CDF1C66897500BC898D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					36806CF31C66897500BC898D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 36806CDF1C66897500BC898D;
+					};
+					36806CFE1C66897500BC898D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 36806CDF1C66897500BC898D;
+					};
+				};
+			};
+			buildConfigurationList = 36806CDB1C66897500BC898D /* Build configuration list for PBXProject "GoogleRSS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36806CD71C66897500BC898D;
+			productRefGroup = 36806CE11C66897500BC898D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36806CDF1C66897500BC898D /* GoogleRSS */,
+				36806CF31C66897500BC898D /* GoogleRSSTests */,
+				36806CFE1C66897500BC898D /* GoogleRSSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36806CDE1C66897500BC898D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36806CEE1C66897500BC898D /* LaunchScreen.storyboard in Resources */,
+				36806CEB1C66897500BC898D /* Assets.xcassets in Resources */,
+				36806CE91C66897500BC898D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36806CF21C66897500BC898D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36806CFD1C66897500BC898D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36806CDC1C66897500BC898D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36806CE61C66897500BC898D /* ViewController.swift in Sources */,
+				36806CE41C66897500BC898D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36806CF01C66897500BC898D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36806CF91C66897500BC898D /* GoogleRSSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36806CFB1C66897500BC898D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36806D041C66897500BC898D /* GoogleRSSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36806CF61C66897500BC898D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36806CDF1C66897500BC898D /* GoogleRSS */;
+			targetProxy = 36806CF51C66897500BC898D /* PBXContainerItemProxy */;
+		};
+		36806D011C66897500BC898D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36806CDF1C66897500BC898D /* GoogleRSS */;
+			targetProxy = 36806D001C66897500BC898D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36806CE71C66897500BC898D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36806CE81C66897500BC898D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36806CEC1C66897500BC898D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36806CED1C66897500BC898D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36806D061C66897500BC898D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36806D071C66897500BC898D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36806D091C66897500BC898D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoogleRSS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Me.GoogleRSS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		36806D0A1C66897500BC898D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoogleRSS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Me.GoogleRSS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		36806D0C1C66897500BC898D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoogleRSSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Me.GoogleRSSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleRSS.app/GoogleRSS";
+			};
+			name = Debug;
+		};
+		36806D0D1C66897500BC898D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoogleRSSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Me.GoogleRSSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleRSS.app/GoogleRSS";
+			};
+			name = Release;
+		};
+		36806D0F1C66897500BC898D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GoogleRSSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Me.GoogleRSSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GoogleRSS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		36806D101C66897500BC898D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GoogleRSSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Me.GoogleRSSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GoogleRSS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36806CDB1C66897500BC898D /* Build configuration list for PBXProject "GoogleRSS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36806D061C66897500BC898D /* Debug */,
+				36806D071C66897500BC898D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36806D081C66897500BC898D /* Build configuration list for PBXNativeTarget "GoogleRSS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36806D091C66897500BC898D /* Debug */,
+				36806D0A1C66897500BC898D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		36806D0B1C66897500BC898D /* Build configuration list for PBXNativeTarget "GoogleRSSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36806D0C1C66897500BC898D /* Debug */,
+				36806D0D1C66897500BC898D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		36806D0E1C66897500BC898D /* Build configuration list for PBXNativeTarget "GoogleRSSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36806D0F1C66897500BC898D /* Debug */,
+				36806D101C66897500BC898D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36806CD81C66897500BC898D /* Project object */;
+}
