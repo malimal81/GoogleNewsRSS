@@ -14,6 +14,13 @@
 		36806CEE1C66897500BC898D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36806CEC1C66897500BC898D /* LaunchScreen.storyboard */; };
 		36806CF91C66897500BC898D /* GoogleRSSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36806CF81C66897500BC898D /* GoogleRSSTests.swift */; };
 		36806D041C66897500BC898D /* GoogleRSSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36806D031C66897500BC898D /* GoogleRSSUITests.swift */; };
+		36806D121C668D1200BC898D /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36806D111C668D1200BC898D /* FeedViewController.swift */; };
+		36806D141C668E5C00BC898D /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36806D131C668E5C00BC898D /* FeedCell.swift */; };
+		36806D161C66A5C900BC898D /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36806D151C66A5C900BC898D /* ContentViewController.swift */; };
+		36806D181C66AAEB00BC898D /* XMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36806D171C66AAEB00BC898D /* XMLParser.swift */; };
+		36806D281C66DB2400BC898D /* Haneke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36806D211C66DB0C00BC898D /* Haneke.framework */; };
+		36806D291C66DB2400BC898D /* Haneke.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 36806D211C66DB0C00BC898D /* Haneke.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		36806D2E1C66DDC000BC898D /* DictionaryExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36806D2D1C66DDC000BC898D /* DictionaryExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +38,56 @@
 			remoteGlobalIDString = 36806CDF1C66897500BC898D;
 			remoteInfo = GoogleRSS;
 		};
+		36806D201C66DB0C00BC898D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36806D191C66DB0C00BC898D /* Haneke.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A095C9561980418C00CD0F4C;
+			remoteInfo = "Haneke-iOS";
+		};
+		36806D221C66DB0C00BC898D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36806D191C66DB0C00BC898D /* Haneke.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6393C5F71C3B229200EB1FD8;
+			remoteInfo = "Haneke-tvOS";
+		};
+		36806D241C66DB0C00BC898D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36806D191C66DB0C00BC898D /* Haneke.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A095C9611980418C00CD0F4C;
+			remoteInfo = HanekeTests;
+		};
+		36806D261C66DB0C00BC898D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36806D191C66DB0C00BC898D /* Haneke.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A0026E9A19C9BFBC004DE0C6;
+			remoteInfo = HanekeDemo;
+		};
+		36806D2A1C66DB2500BC898D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36806D191C66DB0C00BC898D /* Haneke.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A095C9551980418C00CD0F4C;
+			remoteInfo = "Haneke-iOS";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		36806D2C1C66DB2500BC898D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				36806D291C66DB2400BC898D /* Haneke.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		36806CE01C66897500BC898D /* GoogleRSS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleRSS.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +103,12 @@
 		36806CFF1C66897500BC898D /* GoogleRSSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleRSSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36806D031C66897500BC898D /* GoogleRSSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleRSSUITests.swift; sourceTree = "<group>"; };
 		36806D051C66897500BC898D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36806D111C668D1200BC898D /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		36806D131C668E5C00BC898D /* FeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		36806D151C66A5C900BC898D /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		36806D171C66AAEB00BC898D /* XMLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLParser.swift; sourceTree = "<group>"; };
+		36806D191C66DB0C00BC898D /* Haneke.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Haneke.xcodeproj; path = "../../../Downloads/HanekeSwift-master/Haneke.xcodeproj"; sourceTree = "<group>"; };
+		36806D2D1C66DDC000BC898D /* DictionaryExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36806D281C66DB2400BC898D /* Haneke.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +144,7 @@
 				36806CF71C66897500BC898D /* GoogleRSSTests */,
 				36806D021C66897500BC898D /* GoogleRSSUITests */,
 				36806CE11C66897500BC898D /* Products */,
+				36806D191C66DB0C00BC898D /* Haneke.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +163,11 @@
 			children = (
 				36806CE31C66897500BC898D /* AppDelegate.swift */,
 				36806CE51C66897500BC898D /* ViewController.swift */,
+				36806D111C668D1200BC898D /* FeedViewController.swift */,
+				36806D2D1C66DDC000BC898D /* DictionaryExt.swift */,
+				36806D131C668E5C00BC898D /* FeedCell.swift */,
+				36806D151C66A5C900BC898D /* ContentViewController.swift */,
+				36806D171C66AAEB00BC898D /* XMLParser.swift */,
 				36806CE71C66897500BC898D /* Main.storyboard */,
 				36806CEA1C66897500BC898D /* Assets.xcassets */,
 				36806CEC1C66897500BC898D /* LaunchScreen.storyboard */,
@@ -125,6 +194,17 @@
 			path = GoogleRSSUITests;
 			sourceTree = "<group>";
 		};
+		36806D1A1C66DB0C00BC898D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36806D211C66DB0C00BC898D /* Haneke.framework */,
+				36806D231C66DB0C00BC898D /* Haneke.framework */,
+				36806D251C66DB0C00BC898D /* HanekeTests.xctest */,
+				36806D271C66DB0C00BC898D /* HanekeDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,10 +215,12 @@
 				36806CDC1C66897500BC898D /* Sources */,
 				36806CDD1C66897500BC898D /* Frameworks */,
 				36806CDE1C66897500BC898D /* Resources */,
+				36806D2C1C66DB2500BC898D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				36806D2B1C66DB2500BC898D /* PBXTargetDependency */,
 			);
 			name = GoogleRSS;
 			productName = GoogleRSS;
@@ -215,6 +297,12 @@
 			mainGroup = 36806CD71C66897500BC898D;
 			productRefGroup = 36806CE11C66897500BC898D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 36806D1A1C66DB0C00BC898D /* Products */;
+					ProjectRef = 36806D191C66DB0C00BC898D /* Haneke.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				36806CDF1C66897500BC898D /* GoogleRSS */,
@@ -223,6 +311,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		36806D211C66DB0C00BC898D /* Haneke.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Haneke.framework;
+			remoteRef = 36806D201C66DB0C00BC898D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		36806D231C66DB0C00BC898D /* Haneke.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Haneke.framework;
+			remoteRef = 36806D221C66DB0C00BC898D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		36806D251C66DB0C00BC898D /* HanekeTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = HanekeTests.xctest;
+			remoteRef = 36806D241C66DB0C00BC898D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		36806D271C66DB0C00BC898D /* HanekeDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = HanekeDemo.app;
+			remoteRef = 36806D261C66DB0C00BC898D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		36806CDE1C66897500BC898D /* Resources */ = {
@@ -256,7 +375,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36806D161C66A5C900BC898D /* ContentViewController.swift in Sources */,
 				36806CE61C66897500BC898D /* ViewController.swift in Sources */,
+				36806D181C66AAEB00BC898D /* XMLParser.swift in Sources */,
+				36806D141C668E5C00BC898D /* FeedCell.swift in Sources */,
+				36806D121C668D1200BC898D /* FeedViewController.swift in Sources */,
+				36806D2E1C66DDC000BC898D /* DictionaryExt.swift in Sources */,
 				36806CE41C66897500BC898D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +413,11 @@
 			isa = PBXTargetDependency;
 			target = 36806CDF1C66897500BC898D /* GoogleRSS */;
 			targetProxy = 36806D001C66897500BC898D /* PBXContainerItemProxy */;
+		};
+		36806D2B1C66DB2500BC898D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Haneke-iOS";
+			targetProxy = 36806D2A1C66DB2500BC898D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -399,6 +528,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = GoogleRSS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Me.GoogleRSS;
@@ -410,6 +540,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = GoogleRSS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Me.GoogleRSS;
