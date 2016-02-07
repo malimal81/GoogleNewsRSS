@@ -63,7 +63,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         
         cell.title.text = currentDictionary["title"]
-                
+        
         let descString: NSString = (currentDictionary["description"])! as NSString
         var descArr = descString.componentsSeparatedByString("font size=")
         let index = descArr[3].startIndex.advancedBy(5)
