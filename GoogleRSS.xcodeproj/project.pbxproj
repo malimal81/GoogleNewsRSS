@@ -21,6 +21,7 @@
 		36806D281C66DB2400BC898D /* Haneke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36806D211C66DB0C00BC898D /* Haneke.framework */; };
 		36806D291C66DB2400BC898D /* Haneke.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 36806D211C66DB0C00BC898D /* Haneke.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		36806D2E1C66DDC000BC898D /* DictionaryExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36806D2D1C66DDC000BC898D /* DictionaryExt.swift */; };
+		36806D301C66E81C00BC898D /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36806D2F1C66E81C00BC898D /* Reachability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +110,7 @@
 		36806D171C66AAEB00BC898D /* XMLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLParser.swift; sourceTree = "<group>"; };
 		36806D191C66DB0C00BC898D /* Haneke.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Haneke.xcodeproj; path = "../../../Downloads/HanekeSwift-master/Haneke.xcodeproj"; sourceTree = "<group>"; };
 		36806D2D1C66DDC000BC898D /* DictionaryExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryExt.swift; sourceTree = "<group>"; };
+		36806D2F1C66E81C00BC898D /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 				36806CE31C66897500BC898D /* AppDelegate.swift */,
 				36806CE51C66897500BC898D /* ViewController.swift */,
 				36806D111C668D1200BC898D /* FeedViewController.swift */,
+				36806D2F1C66E81C00BC898D /* Reachability.swift */,
 				36806D2D1C66DDC000BC898D /* DictionaryExt.swift */,
 				36806D131C668E5C00BC898D /* FeedCell.swift */,
 				36806D151C66A5C900BC898D /* ContentViewController.swift */,
@@ -381,6 +384,7 @@
 				36806D141C668E5C00BC898D /* FeedCell.swift in Sources */,
 				36806D121C668D1200BC898D /* FeedViewController.swift in Sources */,
 				36806D2E1C66DDC000BC898D /* DictionaryExt.swift in Sources */,
+				36806D301C66E81C00BC898D /* Reachability.swift in Sources */,
 				36806CE41C66897500BC898D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
